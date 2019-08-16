@@ -6,8 +6,8 @@ This is the Excel sheet containing questions, answers, hints and follow-up perta
 
 (Personally, I would like this to be the largest question bank for Laravel in google assistant. Wishful thinking)
 
-[![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://github.com/the-provost)
 
-[![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://github.com/the-provost)
 
 
