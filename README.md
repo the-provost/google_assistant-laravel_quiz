@@ -1,6 +1,7 @@
 # google_assistant-laravel_quiz
 
-I have created a laravel based flash card game on the google assistant. 
+I have created a laravel based flash card game on the google assistant.
+
 You can access it by invoking : 'OK Google, Talk to The Laravel Quiz'
 
 This is the Excel sheet containing questions, answers, hints and follow-up pertaining to the Laravel framework. Feel free to contribute your questions and answers.
