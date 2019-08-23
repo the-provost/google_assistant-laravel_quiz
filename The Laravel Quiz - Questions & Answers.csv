@@ -1,0 +1,61 @@
+,,,
+Flash Cards,,,
+Enter your questions and answers below.,,,
+Note that synonyms for answers that aren't just partial matches can be separated with the '|' character.,,,
+Remember to change your game title and settings in the Configuration tab.,,,
+,,,
+Question,Answer,Hint,Follow Up
+Who developed the Laravel Framework?,Taylor Otwell,,
+Which language is Laravel based on?,PHP,It is the language facebook and wordpress were built on,
+What is the name of the command-line interface provided by Laravel that provides a number of helpful commands?,Artisan,,"Artisan is the command-line interface included with Laravel. It provides a number of helpful commands that can assist you while you build your application. To view a list of all available Artisan commands, you may use the list command. Every command also includes a ""help"" screen which displays and describes the command's available arguments and options. To view a help screen, precede the name of the command with help."
+"Which part of the MVC framework directly manages the data, logic and rules of the application?",Model,,"The central component of the pattern. It is the application's dynamic data structure, independent of the user interface. It directly manages the data, logic and rules of the application."
+"Which part of the MVC framework is the representation of information such as a chart, diagram or table?",View,,"Any representation of information such as a chart, diagram or table. Multiple views of the same information are possible, such as a bar chart for management and a tabular view for accountants."
+Which part of the MVC framework accepts input and converts it to commands for the model or view?,Controller,,"Accepts input and converts it to commands for the model or view. The controller responds to the user input and performs interactions on the data model objects. The controller receives the input, optionally validates it and then passes the input to the model."
+Which artisan command runs all database migrations?,migrate,,"Migrations are like version control for your database, allowing your team to easily modify and share the application's database schema. Migrations are typically paired with Laravel's schema builder to easily build your application's database schema. If you have ever had to tell a teammate to manually add a column to their local database schema, you've faced the problem that database migrations solve."
+Which artisan command optimizes your application for better performance?,optimize,Answer is in the question,optimize' optimizes your application for better performance by caching core PHP classes into bootstrap /cache/compile.php
+Which artisan command puts your application in 'maintenance mode'?,down,_own,"down' puts your app in 'maintenance mode' in order for you to fix an error, run migrations, or whatever else; 'up' restores an application from 'maintenance mode'"
+Which artisan command displays the environment in which laravel is running at the moment?,env,,env' Displays which environment Laravel is running at the moment; it's the equivalent of echoing app()->environment() in-app
+Which artisan command brings your app out of 'maintenance mode'?,up,,"down' puts your app in 'maintenance mode' in order for you to fix an error, run migrations, or whatever else; 'up' restores an application from 'maintenance mode'"
+What is the name of the ActiveRecord ORM that comes with Laravel?,Eloquent,It's a beautiful name,"Eloquent is an ActiveRecord ORM, which means it's a database abstraction layer that provides a single interface to interact with multiple datatypes. ""ActiveRecord"" means that a single Eloquent class is responsible not only for providing the ability to interact with the table as a whole, but also representing an individual table row."
+What is the name of the templating engine in Laravel?,Blade,It's sharp,"Blade is a simple, yet powerful templating engine provided with Laravel. Unlike controller layouts, Blade is driven by template inheritance and sections. All Blade templates should use the .blade.php extension."
+"What included REPL allows you to interact with your entire Laravel application on the command line, including the Eloquent ORM, jobs, events, and more?",Tinker,Tinker Bell,"All Laravel applications include Tinker, a REPL powered by the PsySH package. Tinker allows you to interact with your entire Laravel application on the command line, including the Eloquent ORM, jobs, events, and more. To enter the Tinker environment, run the tinker Artisan command: php artisan tinker"
+What is the HTTP Status Code for your website when it is down for maintenance?,503,,
+Which directory contains 'robots.txt' file?,public,,
+For what purpose is '.env' used?,For setting environment variables,,
+What extension does View files in laravel end with?,.blade.php',,
+In which directory is the routing file sin Laravel set in?,routes directory,,
+What does the vendor directory in Laravel contain?,Third-party code,,
+Which artisan command is used to flush application cache?,cache:clear,,
+"Which method breaks collections into multiple, smaller collections of a given size?",chunck(),,
+Which directory in laravel is used to initialize a laravel application?,bootstrap,,
+How to enable query log in laravel?,Use enableQueryLog method,,
+Does laravel support caching?,Yes,,
+Which site is closely associated with Laravel and has a collection of very easy-to-grasp tutorials and a vibrant community of new adopters?,Laracasts.com,,
+What is the name of the PHP micro-framework that built on Laravel’s top components?,Lumen,,
+What acts as a middleman between request and response and is a type of filtering mechanism?,Middleware,,"As the name suggests, Middleware acts as a middleman between request and response. It is a type of filtering mechanism. For example, Laravel includes a middleware that verifies whether the user of the application is authenticated or not. If the user is authenticated, he will be redirected to the home page otherwise, he will be redirected to the login page."
+What are the 2 types of middleware possible in Laravel?,Global middleware and route middleware,,"There are two types of Middleware in Laravel.
+Global Middleware: will run on every HTTP request of the application.
+Route Middleware: will be assigned to a specific route."
+What does Laravel use to manage its dependencies?,Composer,,
+"What are Cashier, Envoy, Horizon, Passport, Scout and Socialite called in Laravel?",Packages,,
+Which popular javascript framework is widely adopted and promoted for use with Laravel?,Vue.js',,
+What are small functionality which you may download to add to your web application called?,Bundles,,Bundles are small functionality which you may download to add to your web application.
+What allows you to change your routes and application will update all of the relevant links as per this link?,Reverse Routing,,
+What gives you Control gives you a method for generating new objects and optionally instantiating and referencing singletons?,IoC Containers,,
+When was Laravel officially launched?,June 2011,,
+"What is the name of the commonly used promise based HTTP client for the browser, nodejs and laravel?",axios,,
+What are classes which provides a static-like interface to services inside the container in Laravel called?,Facades,,"Facades provide a ""static"" interface to classes that are available in the application's service container. Laravel ships with many facades which provide access to almost all of Laravel's features. Laravel facades serve as ""static proxies"" to underlying classes in the service container, providing the benefit of a terse, expressive syntax while maintaining more testability and flexibility than traditional static methods."
+"What provides a ""static"" interface to classes that are available in the application's service container?",Facades,,"Facades provide a ""static"" interface to classes that are available in the application's service container. Laravel ships with many facades which provide access to almost all of Laravel's features. Laravel facades serve as ""static proxies"" to underlying classes in the service container, providing the benefit of a terse, expressive syntax while maintaining more testability and flexibility than traditional static methods."
+What is a powerful tool for managing class dependencies and performing dependency injection?,Service Container,,
+"What is a fancy phrase that essentially means this: class dependencies are ""injected"" into the class via the constructor or, in some cases, ""setter"" methods?",Dependency Injection,,
+"What provides a clean, fluent API for defining basic Gulp tasks for your Laravel application?",Elixir,,"Laravel Elixir provides a clean, fluent API for defining basic Gulp tasks for your Laravel application. Elixir supports several common CSS and JavaScript pre-processors, and even testing tools. Using method chaining, Elixir allows you to fluently define your asset pipeline."
+"Which facade allows the use of 'check',  'allows', or 'denies' methods?",Gates,,"We may use the 'check',  'allows', or 'denies' methods on the Gate facade. All of these methods receive the name of the ability and the arguments that should be passed to the ability's callback. You do not need to pass the current user to these methods, since the Gate will automatically prepend the current user to the arguments passed to the callback. "
+Which PHP classes group authorization logic based on the resource they authorize?,Policy,,"Since defining all of your authorization logic in the 'AuthServiceProvider' could become cumbersome in large applications, Laravel allows you to split your authorization logic into ""Policy"" classes. Policies are plain PHP classes that group authorization logic based on the resource they authorize."
+What allows you to format Eloquent attributes when retrieving them from a model or setting their value?,Accessors and mutators,,"Accessors and mutators allow you to format Eloquent attributes when retrieving them from a model or setting their value. For example, you may want to use the Laravel encrypter to encrypt a value while it is stored in the database, and then automatically decrypt the attribute when you access it on an Eloquent model."
+Which package is the international PHP extension for DateTime?,Carbon,,
+What is the serverless deployment platform for Laravel launched in 2019 called?,Vapor,,"Laravel Vapor is a serverless deployment platform for Laravel, powered by AWS."
+"Which Laravel platform helps you to provision and deploy unlimited PHP applications on DigitalOcean, Linode, Vultr, Amazon and other platforms?",Forge,,"Laravel Forge helps you to provision and deploy unlimited PHP applications on DigitalOcean, Linode, Vultr, Amazon and more."
+Which directory contains all of the custom Artisan commands for your application?,Console,,
+"Which directory contains your controllers, middleware, and form requests?",Http, Almost all of the logic to handle requests entering your application will be placed in this directory.,
+Models are placed in this directory by default. Which is it?,Providers,,
+"Which directory contains the index.php file, which is the entry point for all requests entering your application? ",public,"This directory also houses your assets such as images, JavaScript, and CSS.",
